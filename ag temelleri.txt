@@ -1,0 +1,244 @@
+1- Ağ nedir açıklayınız.
+--- Birden fazla cihazın mevcut kaynakları ortak kullanımına imkan
+sağlayan yapılar Ağ (network) olarak adlandırılır.
+--- Ağ denilince ilk akla gelen cihaz bilgisayar olmasına rağman
+yazıcı, faks, kamera, modem vg. birçok aygıt ağ içerisinde kullanılabilen cihazlardır.
+
+-- Ağ kullanımının yararları 
+-Güvenlik
+-Veri paylaşımı
+-Ağ kaynaklarının paylaşımı
+-Haberlerşme
+-İnternet erişimi
+-Oyunlar
+
+
+2- Bilgisayar Ağlarının Tarihçesi hakkında kısaca bilgi veriniz.
+--- 1969 yılında ABD'de, savunma gayesiyle kurulan bir merkez,
+ARPANET adıyla bir bilgisayar ağını hazırladı.
+--- Bu hususta araştırma yapan strateji uzmanları, bu ağ yardımıyla
+görüşüp fikir alışverişi yapıyorlardı.
+--- 1972'de bu ağ, bir konferans aracılığıyla kamuoyuna tanıtıldı.
+--- 1980 tarihine kadar birçok hususi ağ ortaya çıkmıştı.
+--- Bu tarihte farklı ağların birbirleriyle irtibat kurmasına izin veren
+protokol imzalandı.
+--- ABD'de faaliyetler sürerken, Avrupa ve Uzak Doğu'da da, özellikle üniversiteler, araştırma
+merkezleri stratejik resmi kurumlar arasında bilgisayar ağları teşekkül
+etmeye başlamıştı.
+--- 1983'de ARPANET, askeri ve sivil iki ağa ayrıldığında ortaya çıkan
+ferdi ağların bütününü ifade etmek için 'Internet' ismi teklif edildi.
+
+
+3- Veri ağı ne demektir bilgisayar ağı haricinde 1 örnek.
+--- Birden çok bilgisayarın birbirine bağlı olduğu donanım ve
+yazılımların da paylaşılmasına izin veren bilgisayar ağları,
+veri haberleşmesini veri ağları üzerinden yapmaktadır.
+--- Bilgi iletimine en güzel örnek evlerimizde kullandığımız telefonlardır;
+-- Telefonlarda ses bilgisi kablolar ile santrale gönderilir, santrallerden diğer santrallere ve
+oradan da hedef telefona çağrı iletilir.
+Her telefonun kendisine ulaşılmakta kullanılan bir numarası bulunmaktadır.
+--- Bu sistem incelendiğinde bir ağın nasıl çalıştığı daha kolay anlaşılabilir.
+--- Bilgisayar ağları da bir veri ağıdır.
+--- Ağ sistemi ise iki kişisel istasyondan oluşabileceği gibi binler iş istasyonlarından da oluşabilir.
+--- 'Ağ' terimi konusunda dikkat edilecek bir nokta, genelde bağımsız makinelerin
+bağlantısından oluşan sistem olarak kullanılmasıdır.
+--- Bilgisayar ağında, ağın kendisi bilgisayar gibi görülebilir.
+
+4- Veri iletim tipleri nelerdir açıklayınız.
+--- Baseband
+--- Broadband
+
+-- Baseband
+- Veri iletim ortamı üzerinden aynı andan tek bir sinyal iletiliyor ise
+Örnek Ethernet
+
+-- Broadband
+- Aynı veri iletim hattı üzerinden farklı frekanslar kullanılarak
+birden fazla sinyal iletiliyorsa
+Örnek Tv yayınları
+
+
+5- Veri iletim yöntemleri nelerdir açıklayınız.
+--- Simplex ( Tek Yönlü)
+--- Half-Duplex (Yarı Çift Yönlü)
+--- Full Duplex (Çift Yönlü)
+
+-- Simplex ( Tek Yönlü )
+- İletim sadece tek yönde gerçekleşmektedir.
+- A ve B aygıtı arasında veri iletimi A'dan B'ye ya da B'den A'ya veri iletimi söz konusudur.
+Örnek Tv kumandası
+Kumanda Tv ye veri gönderir ama televizyon kumandaya göndermez.
+
+
+-- Half-Duplex ( Yarı Çift Yönlü )
+- Veri iletimi iki taraflıdır
+- Gönderici alıcı, alıcı da gönderici olabilir
+- Ancak iki yönlü iletim aynı anda gerçekleştirilemez
+
+Örnek Telsiz
+Sırası ile konuşulur.
+
+
+-- Full-Duplex ( Çift Yönlü )
+- İletim iki taraflıdır.
+- Aygıtlar arasında aynı anda dahil olmaz üzere karşılıklı veri alışverişi gerçekleştirilebilir.
+Örnek Telefon
+
+6- Bilgisayar ağlarını kapsadıkları alana göre sınıflandırın ve açıklayın.
+--- Yerel Alan Ağları ( Local Area Networks) ( LAN )
+--- Metropolitan Alan Ağları ( Metropolitan Area Networks) ( MAN )
+--- Geniş Alan Ağları ( Wide Area Networks ) ( WAN )
+
+-- Yerel Alan Ağları ( Local Area Networks ) ( LAN )
+- Yüksek hızlı ve genelde tek bir bina yada yerleşke içerisinde 1 - 1000m arasında kurulan ağları tanımlar
+- Kablolu veya Kablosuz olarak kullanılabilir.
+- Bir oda yada bir ev içerisinde kullanılan küçük çaplı ağ PAN personal area network
+
+
+-- Metropolitan Alan Ağları ( Metropolitan Area Networks) ( MAN )
+- MAN'lar LAN'ların şehir çapındaki büyük türleridir.
+- Üniversitelerde, büyük iş yerlerinde oluşturulan ağlar bu kategoriye girer.
+- Genellikle şehrin bir kısmını kapsayan yerleşkeler arası veri alışverişini ağlayan ağlardır.
+
+
+-- Geniş Alan Ağları ( Wide Area Networks ) ( WAN )
+- Bir ülke yada dünya çapında yüzlerce veya binlerce kilometre mesafeler arasında iletişimi sağlayan ağlardır.
+- Coğrafi olarak birbirinden uzak yerlerdeki bilgisayar sistemlerinin veya yerel bilgisayar ağlarının 
+birbirleri ile bağlanmasıyla oluşur.
+- Genellikle kablo ya da uydular aracılığı ile uzak yerleşimlerle iletişimin kurulduğu bu ağlarda çok sayıda iş istasyonu kullanılır.
+
+
+
+7- Bilgisayar Ağlarını ağ yapılarına(topoloji) göre açıkla şekiller önemli
+--- Topoloji yerleşim şekli demektir
+--- Bilgisayar ve yazıcı gibi ağ elemanlarının fiziksel veya mantıksal dizilimini gerçekleştirir.
+TLDR ağın yerleşim şeklidir.
+
+-- *Bus ( Ortak Yol ) Topoloji ( LAN )
+-- *Star ( Yıldız ) Topoloji ( LAN )
+-- Tree ( Hiyerarşik, ağaç ) Topoloji ( MAN, WAN )
+-- *Token Ring ( Jetonlu Halka ) Topoloji ( LAN )
+-- Mesh ( Karmaşık ) Topoloji ( MAN, WAN )
+* Ağın özünü oluşturuan topolojilerdir
+- Bus ve Token Ring günümüzde tercih edilmez
+- Star topoloji Yaygın Kullanılan Topolojidir.
+
+
+-- Bus Topoloji
+- Tüm iş istasyonlarının üzerinde olduğu bir hat mevcuttur.
+- Bütün istasyonlar hattaki tüm mesajları inceler ve kendine ait mesajları alır
+- Hattaki bilgi akışı çift yönlüdür
+- Kaynak istasyon bilgiyi hatta bırakır. Bilgi her iki yönde ilerleyerek hatta yayılır
+- *Ağın merkezinde kablo vardır
+- *Her bir istasyona T- konnektör takılır
+- *İlk ve son istasyona ise sonlanırıcı ( Terminatör ) bağlanarak ağ sonlandırılır.
+- Ağ performansı en düşük olan topolojilerdendir.
+- *Max 30 istasyon
+- *2 sonlandırıcı arası mesafe ince koaksiyel kablo ile 185 metre kalın kablo ile 500 metredir
+
+ Dikkat edilmesi gerekenler
+ - Bağlantı gerçekleştirilirken T- konnektorler dogudan network kartına takılmalıdır
+
+Avantajları
+- Kablo yapısı güvenlidir
+- Merkez birime ihtiyaç duyulmaz
+
+ Dezavantajları
+- max 30 istasyon
+- bir istasyon gg bütün ağ gg
+- arıza tespiti zor
+
+
+-- *Token Ring ( Jetonlu Halka ) Topoloji ( LAN )
+- Bu tpolojide her istasyon bir halkanın elemanıdır ve halkada oluşan bilgi bütün istasyonlara ulaşır
+- Her istasyon halkada oluşan bilgiyi ve hedef adresi alır
+- Hedef adres kendi adresi ise kabul eder aksi halde bilgi işlem dışı kalır
+- Halkada bilgi akışı tek yönlüdür
+- Veriyi alınca kaynak makineye veriyi aldıgına dair bilgi gönderir
+
+
+
+--- *Star ( Yıldız ) Topoloji ( LAN )
+- Bu topolojide ağdaki iletişimin gerçekleşmesi için merkezi birim bulunur ve bütün istasyonlar
+bu merkezi birime bağlanır.
+- Ortak yol topolojisine göre performansı daha yüksek ve güvenlidir.
+- Bir istasyondan diğerine gönderilen bilgi önce bu merkez birime gelir, buradan hedefe yönlendirilir
+- Ağ trafiğini düzenleme yeteneğine sahip bu merkezi birim, hub ve anahtar ( switch ) olarak adlandırılır.
+
+- Bu topolojiye dayalı bir sistem kurulurken KORUMASIZ ÇİFT BÜKÜMLÜ UTP ( Unshielded Twisted Pair ) veya Korumalı çift bükümlü STP ( Shielded Twisted Pair ) kablo kullanılır.
+- istasyonların merkezi birime ( hub ) olan uzaklıgı max 100m
+- Kullanılan ağ kartına veya kabloya göre ağ farklı hızlarda çalısabilir
+
+- Yıldız topolojisinin özelliklerini şu şekilde özetleyebilirz.
+- Bir istasyon arızalanamsı ağı etkilemez
+- Ağa yeni bir istasyon eklemek çok kolaydır
+- Ağ yönetimi çok kolaydır
+- Kurulan ağ elemanlarına göre yüksek hızlar elde edilebilir
+
+
+--- Tree ( Hiyerarşik, ağaç ) Topoloji ( MAN, WAN )
+-- Ağaç topolojisinin diger adı hiyerarşik topolojidir.
+-- Agacın merkezinde sorumlulugu en fazla olan bir pc bulunur
+-- Dallanma basladıkca sorumlulugu daha az olan pc bulunur
+-- Çok büyük ağların ana omurgalarını olusturmakda kullanılır
+
+
+--- Mesh ( Karmaşık ) Topoloji ( MAN, WAN )
+-- Tüm düğümler ağ içerisinde birbirine bağlıdır
+-- Daha cok WAN	da kullanılır
+-- LAN da kullanıldııgnda tüm düğümlerin mutlaka birbirine baglı olması gerekmez
+
+8- Ağ cihazlarını açıklayın oside çalıstıgı katmanı belirtin
+
+-- Modem
+-- Repeater
+-- Access Point
+-- Hub
+-- Switch
+-- Bridge
+-- Router
+-- Gateway
+
+-- Modem
+- Modülator ve Demodülatör sözcüklerinden türemiştir
+- Analog sinyalleri sayısal , sayısal sinyalleri analog sinyallere çeviren ağ aygıtıdır
+- Bilgisayarın telefon hatlarını kullanarak iletişim kurmasını sağlar
+
+-- Repeater
+- Kablonun kapasitesidnen daha fazla mesafelere bağlantı kurulması gerektiğinde araya kurulan yükselticilere verilen isimdir
+- OSI 1. Katman ( FİZİKSEL KATMAN )
+
+-- Access Point
+- Kablolu bir internet ağına kablosuz erişim sağlar
+- Erişim noktası hub a switch e veya kablolu yönlendiriciye takılır ve kablosuz iletişim sinyalleri gönderir
+
+-- Hub
+- Bir ağ kurarken kullanılabilecek en basit ağ gerecidir
+- Bütün girişlerdeki trafiği diger girişlere aynen yansıtır
+- Bundan dolayı, performansı diğer donanımlara göre daha düşüktür
+
+-- Switch
+- Akıllı Hub da denir
+- Hubdan daha pahalı
+- Gelen bilgileri sadece belli bir bilgisayara göndedir
+- Ağ durumunu izler
+- OS1 nin 2. Katmanında ( Veri İletim Katmanı ) çalısır
+
+-- Bridge
+- OS1 nin 2. Katmanında ( Veri İletim Katmanı ) çalısır
+- Veri yönlendirme işlemi yapar
+
+-- Router
+- Ağlar arası haberleşmenin yapılabilmesi için ara bağlantıyı sağlar
+
+-- Gateway
+- Farklı ağ iletişim kurallarını kullanan 2 bilgisayar arasında  veri çerçevelerinin
+iletimini sağlayan ağ donanımıdır
+- Özetle aynı dili konusamayan 2 ağ arasında tercümanlık yapar
+- OSI nin  bütün katmanlarında çalısır
+
+9- Koaksiyel kabloyu açıklayınız  ve çeşitlerini yazarak açıklayınız
+-- Bir tür bakır kablo çeşitidir
+-- bir çok alanda yüksek frekanslı elektriksel işaretin aktarılmasında kullanılır
+-- Veri iletim kablolamasında tipik olarak 10mbps için birkaç yüz metre mesafelere kadar gidilmektedir.
+
