@@ -241,4 +241,234 @@ iletimini sağlayan ağ donanımıdır
 -- Bir tür bakır kablo çeşitidir
 -- bir çok alanda yüksek frekanslı elektriksel işaretin aktarılmasında kullanılır
 -- Veri iletim kablolamasında tipik olarak 10mbps için birkaç yüz metre mesafelere kadar gidilmektedir.
+-- Ortada çok damarlı tel yumagından olusmus bir iletken, üzeri yalıtkanla kaplanmıs ve onunda
+üzerinde kafes yapısında bir koruyucu iletken tabaka vardır.
+-- En dısta ise kablo içindeki parçaları dış fiziksel
+etkilerden korumak amacıyla bir kılıf bulunur
 
+---Bilgisayar aglarında tercih edilmez
+-döşenmesi zor
+
+-- Tipleri kendi RG kodları vardır
+-- Bu değer kablonun belirli bir uzunlukta elektrik akımına karsı gösterdigi direnctir
+
+-- Türleri
+-RG-8
+-RG-58
+-RG-6,RG-59
+
+--- RG-8 Thicknet      500 metre
+ethernetin ilk kullandıgı kablo tipidir
+artık cok kullanılmaz
+50ohm
+sarı portakal renk
+2.5 metrede bir siyah bantla işaretli olur
+
+--- RG-58        185 metre
+tek koaksiyel ağ kablosudur
+Diğer isimleri thinnet cheapernet
+50ohm
+
+RG-6 - 59
+75ohm
+pc ağlarında kullanılmaz
+tvye takılann anten kablosu rg-6
+rg-59 kablo tvlerde
+
+10Base2
+10Mbs max 185metre
+30max pc
+en az mesafe 0.5m
+
+10Base5
+10 agın hızı 10Megabit per second
+5 kablonun uzunlugu 500 metre
+en az 2.5metre mesafe
+
+
+
+
+
+10 - Twisted pair kabloyu açıklayınız ve çeşitlerini yazarak anlatınız
+STP Shielded Twisted Pair
+UTP Unshielded Twisted Pair
+
+---STP Shielded Twisted Pair 
+--4 katmandan olusur metal bir zırh ile kaplıdır
+-- İlk kullanıldıgı zamanlarda oldukca güvenli kabul edilmistir
+-- İlk dönemdelerde pahalı oldugu icin pek yaygınlasmamıstır
+
+--UTP Unshielded Twisted Pair
+-- En yaygın kullanılıan ağ kablosu
+-- zırh yok
+-- maliyet daha az
+
+
+11 - Fiber optik kabloyu açıklayınız ve çeşitlerini yazarak anlat
+-- veri ve ses iletimi için en ideal
+--- maliyet yuksek
+-- dösenmesi zor
+
+avantajlar
+dış etkenlere karsı dayanıklı
+bant genisligi yüksek
+
+dezavantajlar
+maliyet yuksek
+uzman kisilerce dösenmeli
+kurulumu zor
+
+13 - Düz ve çapraz kablo ne demektir hangi bağlantılarda tercih edilir
+Düz kablo ( Straight - Through Ethernet Cable )
+
+
+14 - Osi modeli katmanlarını sırasıyla yazarak görevlerini acıklayınız
+-- 7 katmandan olusmakta ve karmasıklıgı azaltmak ve standartlar gelistirmek amacıyla gelistirilmistir
+
+Katmanlar
+ 7 - Uygulama      Uygulama grubu - Yazılım
+ 6 - Sunum         Uygulama grubu - Yazılım
+ 5 - Oturum        Uygulama grubu - Yazılım
+ 4 - Taşıma  Ara katman - Yazılım ve donanım arası
+ 3 - Ağ            Ağ grubu - donanım
+ 2 - Veri iletim   Ağ grubu - donanım
+ 1 - Fiziksel      Ağ grubu - donanım
+
+
+	Uygulama katmanı ( Application ) katmanı
+	Kullanıcı tarafından calıstırılıan tüm uygulamalar burada tanımlıdır
+	örnek
+	http , www, ftp , smtp
+
+	Sunum ( Presentation ) Katmanı
+	Verileri uygulama katmanına sunarken veri üzerinden kodlama ve dönüştürme işlemlerini yapar
+	
+
+	Oturum ( Session ) katmanı
+	verinin güvenligini saglar
+	
+	Tasıma ( Transport ) Katmanı
+	Bu katman 5-7 ve 1-3 arası katmanlar arası baglantıyı saglar
+	Üst katmandan aldıgı verileri bölümlere ayırarak bir alt katmana iletir
+	Bir üst katmana bu verileri birleştirerek sunar
+	İki düğüm arasında mantıksal bir bağlantının kurulmasını saglar
+
+	Ağ ( Network ) Katmanı
+	Bu katmanda iletilen veri blokları paket olarak adlandırılır
+	Bu katman veri paketlerinin ağ adreslerini kullanarak uygun aglara yönlendirilir
+
+
+	Veri iletim Data link katmanı
+	Ağ katmanından aldıgı veri paketlerine hata kontrol bitlerini ekleyerek cerceve halinde fiziksel katmana iletme işinden sorumludur
+	örn Switch ve bridge, wifi
+
+	Fiziksel katman
+	Verilerin fiziksel olarak gönderilmesi ve alınmasından sorumludur
+	Hublar burada tanımlıdır
+	
+
+
+15 - TCP/IP referans modelinin katmanlarını sırasıyla yazarak acıklayınız
+
+--- Application Layer
+--- Transport Layer
+--- Internet Layer
+--- Network Access Layer
+
+ TCP transmission control protocol
+
+temelini arpanet olusturur
+
+
+Uygulama Katmanı
+ISO/OSI modelinin en üst 3 katmanı ve tüm uygulama ilişkili görevleri tcp/ip modelinde tek bir katmanda birleştirilmiştir
+Böylece sunum , kodlama ve dialog kontrolu işlerinin yurutuldugu tek bir uygulama katmanı olusturulmustur
+
+Tasıma Katmanı
+OSI modelde oldugu gibi, servisin kalitesi güvenirlik sorunları akıs kontrolu ve hata düzeltme ile ilgilenir
+Farklı hostlar üzerindeki uygulamalrın birbirleri ile görüştürülmesinden sorumlu
+Data paketleri üzerinde kimlik bilgileri burada yerleştirilir
+
+İnternet Katmanı
+Paketlerin olusturulmasında, yönlendirilmesinde, ortamdaki tıkanıkların giderilmesinde görevlidir
+En iyi yolun belirlenmesi bu katmanda gerceklesir
+
+Ağ erişim katmanı
+Düğüm ile ağ arasında IP paketlerine gönderecek bir baglantının kurulmasında görevli
+Fiziksel ve veri iletim katmanlarının tüm görevleri içerir
+
+
+
+16 OSI modeli ile TCP/IP karsılastırma
+
+
+
+19 - IP adresleri sınıflar
+A B C D E
+
+
+
+20 kablosuz iletişim tanım
+
+Kablolu iletişime alternatif olarak uygulanana,
+rf radyo frekans teknolojisini kullanarak 
+havadan bilgi alışverişi yapan esnek bir iletişim sistemidir
+'tel' kullanmadan yapılan iletişimdir
+
+Terim ve Kavramları
+-Wireless - Kablosuz
+Wlan - Wireless Local Area Network
+IEEE - The Institute of Electrical and Electronics Engineers
+(Elektrik Elektronik Mühendisleri Enstitüsü)
+IrDA - Infrared Data Association - Kızılötesi Veri Birliği
+Bluetooth - Kısa mesafeli radyo frekansı teknolojisi
+Wifi - Wireless Fidelity
+HiperLAN - High Performance Radio LAN ( yüksek performanslı Radyo LAN
+Cellular Network - Hücresel Ağ, bir kaç radyo hücresi kullanılarak oluşturulan kablosuz ağ tipidir
+PAN - Personel Area Network
+GSM - Global System for Mobile Communications
+GPRS - General Packet Radio  Service
+WWAN - Wireless Wide Area Network
+SSID - Service Set identifier
+AP - Erişim noktası, birden fazla bilgisayarı kablosuz olarak birbirine baglar
+
+
+
+Kablosuz iletişim temelleri
+- Sinyal
+- Modülasyon
+- Frekans
+- Radyo Frekansı
+- Alıcı-verici
+- Anten
+
+
+- Sinyal
+hehrhangi bir sesin iletilmek veya saklanmak için elektromanyetik
+enerjiye çevrilmiş halidir
+
+- Analog Sürekli Ölçekte
+- Dijital Sınırlı Ölçekte
+
+- Modülasyon
+- Alçak frekanslı bilgi sinyallerinin yüksek frekanslı taşıyıcı sinyaller üzerine bindirilip
+uzak mesafelere gönderilmesi işlemine denir
+- Genlik Modülasyonu
+- Faz ""
+- Frekans ""
+
+
+
+-Frekans
+bir olayın birim zamanda içinde hangi sıklıkla kaç defa tekrarlandıgının ölçümüdür
+
+- Radyo frekansı
+bir bilgi sinyali ile modüle edilmiş olan taşıyıcı sinyal anlamına gelir
+
+
+- Desibel
+Sessin şiddeti db cinsinden ölçülür
+Belirli bir referans güç yada miktar seviyeye olan oranı belirten
+genelde ses şiddeti için kullanılan
+logaritmik ve boyutsuz bir birimdir
+insan 20 hz - 20 khz 20.000hz
